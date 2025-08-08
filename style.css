@@ -1,0 +1,116 @@
+
+    :root {
+      --ui-radius: 12px;
+      --ui-color: #ffffff;
+      --ui-outline-color: #ccc;
+      --ui-font-size: 16px;
+      --ui-padding: 0.75em 1.5em;
+      --ui-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      --primary-color: #24292f;
+      --secondary-color: #57606a;
+      --accent-color: #0366d6;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f6f8fa;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    form {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    input[type="text"],
+    button {
+      background: var(--ui-color);
+      border: 2px solid var(--ui-outline-color);
+      outline: none;
+      font-size: var(--ui-font-size);
+      font-weight: bold;
+      border-radius: var(--ui-radius);
+      padding: var(--ui-padding);
+      box-shadow: var(--ui-shadow);
+    }
+
+    input[type="text"] {
+      width: 200px;
+    }
+
+    button {
+      cursor: pointer;
+      background-color: var(--accent-color);
+      color: white;
+      border: none;
+      transition: background 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #024ea4;
+    }
+
+    #followers {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .profile-card {
+      background: var(--ui-color);
+      border-radius: var(--ui-radius);
+      padding: 1.5rem;
+      box-shadow: var(--ui-shadow);
+      text-align: center;
+    }
+
+    .profile-card img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid var(--accent-color);
+    }
+
+    .profile-card h2 {
+      margin: 0.5rem 0;
+      color: var(--primary-color);
+    }
+
+    .profile-card p {
+      color: var(--secondary-color);
+      margin: 0.25rem 0;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1rem;
+    margin-bottom: 16px;
+
+    }
+
+    .stats div {
+      text-align: center;
+    }
+
+    .stats strong {
+      display: block;
+      color: var(--primary-color);
+      font-size: 1.2rem;
+    }
+    .app-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+ 
