@@ -41,6 +41,7 @@ document.querySelector("form").addEventListener("submit", function(e) {
             </div>
             <a href="${data.html_url}"><strong>Link to Github</strong></a>
           </div>
+       
         `;
       } 
       else if (data.message === 'Not Found') {
